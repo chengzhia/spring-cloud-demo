@@ -2,12 +2,12 @@ package com.chengzhi;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableEurekaServer
 @SpringBootApplication
-public class Application {
+@EnableConfigServer
+public class ConfigServerApplication {
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(Application.class).web(true).run(args);
+		new SpringApplicationBuilder(ConfigServerApplication.class).web(true).run(args);
 	}
 }
