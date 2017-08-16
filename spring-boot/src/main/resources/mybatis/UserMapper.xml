@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.cheng.web.mapper.UserMapper">
-	<insert id="addUser" parameterType="com.cheng.web.mapper.UserMapper">
-		INSERT INTO user(USERID,USERNAME,USERPASSWORD) VALUES(#{userId,jdbcType=VARCHAR},#{userName,jdbcType=INTEGER},#{userPassWord,jdbcType=INTEGER})
-	</insert>
-</mapper>

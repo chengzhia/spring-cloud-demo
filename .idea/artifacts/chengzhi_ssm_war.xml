@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chengzhi-ssm:war">
+    <output-path>$PROJECT_DIR$/chengzhi-ssm/target</output-path>
+    <root id="archive" name="chengzhi-ssm-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chengzhi-ssm:war exploded" />
+    </root>
+  </artifact>
+</component>

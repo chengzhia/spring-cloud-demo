@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="chengzhi-ssh:war">
+    <output-path>$PROJECT_DIR$/chengzhi-ssh/target</output-path>
+    <root id="archive" name="chengzhi-ssh-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chengzhi-ssh:war exploded" />
+    </root>
+  </artifact>
+</component>
